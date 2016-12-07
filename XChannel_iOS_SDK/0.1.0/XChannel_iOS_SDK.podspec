@@ -45,11 +45,6 @@ Pod::Spec.new do |s|
               'z', # FirebaseAnalytics.
               ]
 
-  #uncomment below three lines while running pod install in XChannel_iOS_SDK directory.  Development pod needs source files
-  # otherwise, these lines are commented so that apps installing the framework gets precompiled framework not development pod
-  #s.source_files = 'XChannel_iOS_SDK/Classes/**/*'
-  #s.ios.public_header_files =  'XChannel_iOS_SDK/Classes/Headers/*.h'
-  #s.resource_bundles = {'Resources' => 'XChannel_iOS_SDK/Assets/**/*'}
 
   # List of firebase frameworks we are providing
   # The app using this Pod should _not_ link these Frameworks,
